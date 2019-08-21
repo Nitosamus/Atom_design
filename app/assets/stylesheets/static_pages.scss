@@ -1,0 +1,548 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/* couleur */
+
+.main_container {
+	background-image: url("school.jpg");
+	height: 300px;
+	width:	1000px;
+	background-repeat: no-repeat;
+
+}
+.header_title{
+	
+	background-color: #0080ff;
+
+	
+}
+
+.primary{
+	background-color: #751aff;
+	
+
+}
+
+.secondary{
+	background-color: #39ac73;
+	
+}
+
+.ligth{
+	background-color: #f2f2f2;
+	
+}
+
+.medium-ligth{
+	background-color: #999999;
+	
+
+
+}
+
+.dark{
+	background-color: #0d0d0d;
+	
+
+}
+
+.text_0{
+	
+	color:  white;
+
+}
+.text_1{
+	
+	color:  blue;
+
+}
+td {
+	
+	text-align: center;
+}
+
+
+.warning{
+	background-color: #FFA500;
+	
+
+}
+
+.danger{
+
+	background-color: #FF0000;
+	
+}
+
+.success{
+
+	background-color: #00FF00;
+	
+}
+
+.info{
+
+	background-color: #0000FF;
+	
+
+}
+
+td {
+	
+	height: 50px;
+	width:150px;
+}
+
+
+/*-------------------*/
+/* Les typographies */
+/*------------------*/
+
+.titre {
+	font-size: 2.2em;
+	font-family: Georgia, serif;
+}
+
+.text-normal{
+	
+	font-family: "Times New Roman", Times, serif;
+}
+
+.hd1{
+font-family: "Arial Black", Gadget, sans-serif;
+	
+}
+.hd2{
+	font-family: "Palatino Linotype",Palatino, serif;
+	
+}
+.hd3{
+	font-family: Verdana, sans-serif;
+	
+}
+.hd4{
+	font-family: Geneva, sans-serif;
+	
+}
+.hd5{
+	font-family: Aldrich, sans-serif;
+	
+}
+.hd6{
+	font-family: Alegreya Sans;
+	
+}
+
+
+.para-typo{
+	
+	font-family: Palatino, serif;
+}
+.lead{
+	
+	font-family: 'Junge';
+	font-size: 1.1em;
+}
+
+.u-list{
+	
+	font-family: Helvetica, sans-serif;
+}
+.o-list{
+	
+	font-family: Allerta;
+}
+.item{
+	
+	font-family: Charcoal, sans-serif;
+}
+
+.squote{
+	font-family: Charm;
+}
+
+/*-------------------*/
+/* Les boutons */
+/*------------------*/
+
+/*--- Les boutons normaux----*/
+.btn-primary{
+  height: 40px;
+  width: 100%;
+  background-color: #751aff;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-danger{
+  height: 40px;
+  width: 100%;
+  background-color: #FF0000;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-warning{
+  height: 40px;
+  width: 100%;
+  background-color: #FFA500;
+  border-style: solid; border-radius: 8px;
+  
+}
+.btn-success{
+  height: 40px;
+  width: 100%;
+  background-color: #00FF00;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-info{
+  height: 40px;
+  width: 100%;
+  background-color: #0000FF;
+  border-style: solid;border-radius: 8px;
+
+}
+
+/*------hover--------*/
+
+.btn-primary:hover{
+  background-color: white;
+  border: 2px solid #751aff; 
+}
+
+.btn-danger:hover{
+ background-color: white;
+  border: 2px solid #FF0000; 
+}
+
+.btn-warning:hover{
+  background-color: white;
+  border: 2px solid #FFA500;
+  
+}
+
+.btn-success:hover{
+  background-color: white;
+  border: 2px solid #00FF00;
+}
+
+.btn-info:hover{
+  background-color: white;
+  border: 2px solid #0000FF;  
+}
+/* ----------------------------*/
+/*--- Les boutons outline----*/
+/*----------------------------*/
+.btn-outline-primary{
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #751aff; 
+}
+.btn-outline-danger{
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #FF0000; 
+}
+.btn-outline-warning{
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #FFA500;
+  
+}
+.btn-outline-success{
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #00FF00;
+  
+}
+.btn-outline-info{
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #0000FF;  
+
+}
+
+/*------hover--------*/
+
+.btn-outline-primary:hover{
+  color: white;
+  background-color: #751aff;
+}
+
+.btn-outline-danger:hover{
+  color: white;
+  background-color: #FF0000;
+}
+
+.btn-outline-warning:hover{
+  color: white;
+  background-color: #FFA500
+  
+}
+
+.btn-outline-success:hover{
+  color: white;
+  background-color: #00FF00; 
+}
+
+.btn-outline-info:hover{
+  color: white;
+  background-color: #0000FF;
+}
+
+
+/* ----------------------------*/
+/*--- Les boutons small----*/
+/*----------------------------*/
+.btn-sml-primary{
+  height: 20px;
+  width: 100%;
+  background-color: #751aff;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-sml-danger{
+  height: 20px;
+  width: 100%;
+  background-color: #FF0000;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-sml-warning{
+  height: 20px;
+  width: 100%;
+  background-color: #FFA500;
+  border-style: solid; border-radius: 8px;
+  
+}
+.btn-sml-success{
+  height: 20px;
+  width: 100%;
+  background-color: #00FF00;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-sml-info{
+  height: 20px;
+  width: 100%;
+  background-color: #0000FF;
+  border-style: solid;border-radius: 8px;
+
+}
+
+
+/*------hover--------*/
+
+.btn-sml-primary:hover{
+  background-color: white;
+  border: 2px solid #751aff; 
+}
+
+.btn-sml-danger:hover{
+ background-color: white;
+  border: 2px solid #FF0000; 
+}
+
+.btn-sml-warning:hover{
+  background-color: white;
+  border: 2px solid #FFA500;
+  
+}
+
+.btn-sml-success:hover{
+  background-color: white;
+  border: 2px solid #00FF00;
+}
+
+.btn-sml-info:hover{
+  background-color: white;
+  border: 2px solid #0000FF;  
+}
+
+/* ----------------------------*/
+/*--- Les boutons big----*/
+/*----------------------------*/
+.btn-bg-primary{
+  height: 60px;
+  width: 200px;
+  background-color: #751aff;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-bg-danger{
+  height: 60px;
+  width: 200px;
+  background-color: #FF0000;
+  border-style: solid; border-radius: 8px;
+  
+}
+.btn-bg-warning{
+  height: 60px;
+  width: 200px;
+  background-color: #FFA500;
+  border-style: solid; border-radius: 8px;
+  
+}
+.btn-bg-success{
+  height: 60px;
+  width: 200px;
+  background-color: #00FF00;
+  border-style: solid;border-radius: 8px;
+  
+}
+.btn-bg-info{
+  height: 60px;
+  width: 200px;
+  background-color: #0000FF;
+  border-style: solid;border-radius: 8px;
+}
+
+/*------hover--------*/
+
+.btn-bg-primary:hover{
+  background-color: white;
+  border: 2px solid #751aff; 
+}
+
+.btn-bg-danger:hover{
+ background-color: white;
+  border: 2px solid #FF0000; 
+}
+
+.btn-bg-warning:hover{
+  background-color: white;
+  border: 2px solid #FFA500;
+  
+}
+
+.btn-bg-success:hover{
+  background-color: white;
+  border: 2px solid #00FF00;
+}
+
+.btn-bg-info:hover{
+  background-color: white;
+  border: 2px solid #0000FF;  
+}
+
+/*-------Les inputs----*/
+
+.in-1{
+	postion: relative;
+	display: inline;
+}
+.in-2{
+	position:relative;
+	display: inline-block;
+}
+.in-3{
+	position: relative;
+	display: inline;
+}
+.in-4{
+	display: inline;
+}
+
+
+input[type=text]{
+  width: 30%;
+  height: 50px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #0000FF;
+  border-radius: 8px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #00FF00;
+}
+
+input[type=password]{
+	
+	
+}
+select:focus{
+	border: 1px solid #00FF00;
+
+}
+textarea.txt-area:focus{
+	border: 1px solid #00FF00;
+
+}
+
+input[type=radio]{
+		
+}
+input[type=datetime-local]{
+	
+	
+}
+input[type=checkbox]{
+		
+}
+
+
+div.list-group{
+	background-color: white;
+	width: 350px;
+	height: 600px;
+}
+
+
+.item-list-1{
+	background-color: #4169E1;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	
+}
+.item-list-2{
+	background-color: #FF8C00;
+	padding-top: 20px;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+.item-list-3{
+	background-color: #DC143C;
+	text-align: center;
+	color: #AFEEEE;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.href-item{
+	text-decoration: none;
+}
+.href-item:link{
+	color:white;
+}
+.href-item:visited{
+	color:several;
+}
+.href-item:hover{
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.href-item:active{
+  background-color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid #191970;
+}
